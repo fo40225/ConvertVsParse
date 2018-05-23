@@ -1,0 +1,488 @@
+// ***** BenchmarkRunner: Start   *****
+// Found benchmarks:
+//   ConvertVsParse.Convert: DefaultJob [N=1000]
+//   ConvertVsParse.Parse: DefaultJob [N=1000]
+//   ConvertVsParse.Convert: DefaultJob [N=1000000]
+//   ConvertVsParse.Parse: DefaultJob [N=1000000]
+
+// Validating benchmarks:
+// ***** Building 4 benchmark(s) in Parallel: Start   *****
+// ***** Done, took 00:00:03 (4 sec)   *****
+// **************************
+// Benchmark: ConvertVsParse.Convert: DefaultJob [N=1000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\User\Source\Repos\ConvertVsParse\ConvertVsParse\bin\Release\aa3c8202-70ac-439c-bd43-9eebe31769c3.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 2120600.00 ns, 132.5375 us/op
+Pilot  2: 32 op, 3533700.00 ns, 110.4281 us/op
+Pilot  3: 64 op, 7087100.00 ns, 110.7359 us/op
+Pilot  4: 128 op, 15325600.00 ns, 119.7313 us/op
+Pilot  5: 256 op, 30509900.00 ns, 119.1793 us/op
+Pilot  6: 512 op, 61180600.00 ns, 119.4934 us/op
+Pilot  7: 1024 op, 156985600.00 ns, 153.3063 us/op
+Pilot  8: 2048 op, 249803400.00 ns, 121.9743 us/op
+Pilot  9: 4096 op, 492704000.00 ns, 120.2891 us/op
+Pilot 10: 8192 op, 945012400.00 ns, 115.3580 us/op
+
+IdleWarmup  1: 8192 op, 41900.00 ns, 5.1147 ns/op
+IdleWarmup  2: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleWarmup  3: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  4: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleWarmup  5: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleWarmup  6: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  7: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  8: 8192 op, 32700.00 ns, 3.9917 ns/op
+
+IdleTarget  1: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget  2: 8192 op, 32900.00 ns, 4.0161 ns/op
+IdleTarget  3: 8192 op, 33100.00 ns, 4.0405 ns/op
+IdleTarget  4: 8192 op, 32000.00 ns, 3.9063 ns/op
+IdleTarget  5: 8192 op, 41400.00 ns, 5.0537 ns/op
+IdleTarget  6: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  7: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  8: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  9: 8192 op, 32900.00 ns, 4.0161 ns/op
+IdleTarget 10: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 11: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget 12: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 13: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget 14: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 15: 8192 op, 32600.00 ns, 3.9795 ns/op
+
+MainWarmup  1: 8192 op, 945517800.00 ns, 115.4197 us/op
+MainWarmup  2: 8192 op, 925697700.00 ns, 113.0002 us/op
+MainWarmup  3: 8192 op, 917818700.00 ns, 112.0384 us/op
+MainWarmup  4: 8192 op, 923048300.00 ns, 112.6768 us/op
+MainWarmup  5: 8192 op, 939672800.00 ns, 114.7062 us/op
+MainWarmup  6: 8192 op, 952882700.00 ns, 116.3187 us/op
+MainWarmup  7: 8192 op, 914093100.00 ns, 111.5836 us/op
+MainWarmup  8: 8192 op, 907801200.00 ns, 110.8156 us/op
+MainWarmup  9: 8192 op, 914900500.00 ns, 111.6822 us/op
+MainWarmup 10: 8192 op, 912763300.00 ns, 111.4213 us/op
+
+// BeforeMainRun
+MainTarget  1: 8192 op, 931613000.00 ns, 113.7223 us/op
+MainTarget  2: 8192 op, 928323300.00 ns, 113.3207 us/op
+MainTarget  3: 8192 op, 929482600.00 ns, 113.4622 us/op
+MainTarget  4: 8192 op, 903665300.00 ns, 110.3107 us/op
+MainTarget  5: 8192 op, 911424500.00 ns, 111.2579 us/op
+MainTarget  6: 8192 op, 913195400.00 ns, 111.4740 us/op
+MainTarget  7: 8192 op, 912871700.00 ns, 111.4345 us/op
+MainTarget  8: 8192 op, 927695200.00 ns, 113.2440 us/op
+MainTarget  9: 8192 op, 908984700.00 ns, 110.9600 us/op
+MainTarget 10: 8192 op, 905296400.00 ns, 110.5098 us/op
+MainTarget 11: 8192 op, 903354300.00 ns, 110.2727 us/op
+MainTarget 12: 8192 op, 926885400.00 ns, 113.1452 us/op
+MainTarget 13: 8192 op, 908861000.00 ns, 110.9449 us/op
+MainTarget 14: 8192 op, 910287400.00 ns, 111.1191 us/op
+MainTarget 15: 8192 op, 924375400.00 ns, 112.8388 us/op
+
+// AfterMainRun
+Result  1: 8192 op, 931579740.00 ns, 113.7182 us/op
+Result  2: 8192 op, 928290040.00 ns, 113.3167 us/op
+Result  3: 8192 op, 929449340.00 ns, 113.4582 us/op
+Result  4: 8192 op, 903632040.00 ns, 110.3066 us/op
+Result  5: 8192 op, 911391240.00 ns, 111.2538 us/op
+Result  6: 8192 op, 913162140.00 ns, 111.4700 us/op
+Result  7: 8192 op, 912838440.00 ns, 111.4305 us/op
+Result  8: 8192 op, 927661940.00 ns, 113.2400 us/op
+Result  9: 8192 op, 908951440.00 ns, 110.9560 us/op
+Result 10: 8192 op, 905263140.00 ns, 110.5058 us/op
+Result 11: 8192 op, 903321040.00 ns, 110.2687 us/op
+Result 12: 8192 op, 926852140.00 ns, 113.1411 us/op
+Result 13: 8192 op, 908827740.00 ns, 110.9409 us/op
+Result 14: 8192 op, 910254140.00 ns, 111.1150 us/op
+Result 15: 8192 op, 924342140.00 ns, 112.8347 us/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 111.8637 us, StdErr = 0.3261 us (0.29%); N = 15, StdDev = 1.2628 us
+Min = 110.2687 us, Q1 = 110.9409 us, Median = 111.4305 us, Q3 = 113.2400 us, Max = 113.7182 us
+IQR = 2.2991 us, LowerFence = 107.4922 us, UpperFence = 116.6886 us
+ConfidenceInterval = [110.5137 us; 113.2137 us] (CI 99.9%), Margin = 1.3500 us (1.21% of Mean)
+Skewness = 0.21, Kurtosis = 1.25, MValue = 2
+
+// **************************
+// Benchmark: ConvertVsParse.Parse: DefaultJob [N=1000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\User\Source\Repos\ConvertVsParse\ConvertVsParse\bin\Release\e21e60f4-faa8-4020-a0f4-9391514d4624.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 1767600.00 ns, 110.4750 us/op
+Pilot  2: 32 op, 3503500.00 ns, 109.4844 us/op
+Pilot  3: 64 op, 7181000.00 ns, 112.2031 us/op
+Pilot  4: 128 op, 14621500.00 ns, 114.2305 us/op
+Pilot  5: 256 op, 28569300.00 ns, 111.5988 us/op
+Pilot  6: 512 op, 56114400.00 ns, 109.5984 us/op
+Pilot  7: 1024 op, 109300900.00 ns, 106.7392 us/op
+Pilot  8: 2048 op, 215634900.00 ns, 105.2905 us/op
+Pilot  9: 4096 op, 440787700.00 ns, 107.6142 us/op
+Pilot 10: 8192 op, 879406700.00 ns, 107.3495 us/op
+
+IdleWarmup  1: 8192 op, 41400.00 ns, 5.0537 ns/op
+IdleWarmup  2: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  3: 8192 op, 45400.00 ns, 5.5420 ns/op
+IdleWarmup  4: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  5: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  6: 8192 op, 32600.00 ns, 3.9795 ns/op
+
+IdleTarget  1: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  2: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget  3: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget  4: 8192 op, 32900.00 ns, 4.0161 ns/op
+IdleTarget  5: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  6: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget  7: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  8: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget  9: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 10: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget 11: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget 12: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 13: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 14: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 15: 8192 op, 32700.00 ns, 3.9917 ns/op
+
+MainWarmup  1: 8192 op, 870008800.00 ns, 106.2022 us/op
+MainWarmup  2: 8192 op, 865740300.00 ns, 105.6812 us/op
+MainWarmup  3: 8192 op, 876005300.00 ns, 106.9342 us/op
+MainWarmup  4: 8192 op, 870613900.00 ns, 106.2761 us/op
+MainWarmup  5: 8192 op, 886844000.00 ns, 108.2573 us/op
+MainWarmup  6: 8192 op, 871749100.00 ns, 106.4147 us/op
+
+// BeforeMainRun
+MainTarget  1: 8192 op, 869113500.00 ns, 106.0930 us/op
+MainTarget  2: 8192 op, 872261800.00 ns, 106.4773 us/op
+MainTarget  3: 8192 op, 875238400.00 ns, 106.8406 us/op
+MainTarget  4: 8192 op, 888556900.00 ns, 108.4664 us/op
+MainTarget  5: 8192 op, 869205000.00 ns, 106.1041 us/op
+MainTarget  6: 8192 op, 876896100.00 ns, 107.0430 us/op
+MainTarget  7: 8192 op, 866566200.00 ns, 105.7820 us/op
+MainTarget  8: 8192 op, 870682000.00 ns, 106.2844 us/op
+MainTarget  9: 8192 op, 876185600.00 ns, 106.9563 us/op
+MainTarget 10: 8192 op, 1002962300.00 ns, 122.4319 us/op
+MainTarget 11: 8192 op, 885931500.00 ns, 108.1459 us/op
+MainTarget 12: 8192 op, 869890900.00 ns, 106.1879 us/op
+MainTarget 13: 8192 op, 872745100.00 ns, 106.5363 us/op
+MainTarget 14: 8192 op, 884508900.00 ns, 107.9723 us/op
+MainTarget 15: 8192 op, 860589700.00 ns, 105.0525 us/op
+
+// AfterMainRun
+Result  1: 8192 op, 869080800.00 ns, 106.0890 us/op
+Result  2: 8192 op, 872229100.00 ns, 106.4733 us/op
+Result  3: 8192 op, 875205700.00 ns, 106.8366 us/op
+Result  4: 8192 op, 888524200.00 ns, 108.4624 us/op
+Result  5: 8192 op, 869172300.00 ns, 106.1001 us/op
+Result  6: 8192 op, 876863400.00 ns, 107.0390 us/op
+Result  7: 8192 op, 866533500.00 ns, 105.7780 us/op
+Result  8: 8192 op, 870649300.00 ns, 106.2804 us/op
+Result  9: 8192 op, 876152900.00 ns, 106.9523 us/op
+Result 10: 8192 op, 885898800.00 ns, 108.1419 us/op
+Result 11: 8192 op, 869858200.00 ns, 106.1839 us/op
+Result 12: 8192 op, 872712400.00 ns, 106.5323 us/op
+Result 13: 8192 op, 884476200.00 ns, 107.9683 us/op
+Result 14: 8192 op, 860557000.00 ns, 105.0485 us/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 106.7061 us, StdErr = 0.2549 us (0.24%); N = 14, StdDev = 0.9537 us
+Min = 105.0485 us, Q1 = 106.1001 us, Median = 106.5028 us, Q3 = 107.0390 us, Max = 108.4624 us
+IQR = 0.9389 us, LowerFence = 104.6919 us, UpperFence = 108.4473 us
+ConfidenceInterval = [105.6303 us; 107.7819 us] (CI 99.9%), Margin = 1.0758 us (1.01% of Mean)
+Skewness = 0.36, Kurtosis = 2.16, MValue = 2
+
+// **************************
+// Benchmark: ConvertVsParse.Convert: DefaultJob [N=1000000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\User\Source\Repos\ConvertVsParse\ConvertVsParse\bin\Release\ad6658f8-fd4c-4243-a30a-00413ec533ff.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 1975800.00 ns, 123.4875 us/op
+Pilot  2: 32 op, 3584400.00 ns, 112.0125 us/op
+Pilot  3: 64 op, 7410400.00 ns, 115.7875 us/op
+Pilot  4: 128 op, 15064700.00 ns, 117.6930 us/op
+Pilot  5: 256 op, 30722800.00 ns, 120.0109 us/op
+Pilot  6: 512 op, 57057500.00 ns, 111.4404 us/op
+Pilot  7: 1024 op, 126366700.00 ns, 123.4050 us/op
+Pilot  8: 2048 op, 230674300.00 ns, 112.6339 us/op
+Pilot  9: 4096 op, 456690300.00 ns, 111.4967 us/op
+Pilot 10: 8192 op, 914271000.00 ns, 111.6053 us/op
+
+IdleWarmup  1: 8192 op, 41500.00 ns, 5.0659 ns/op
+IdleWarmup  2: 8192 op, 34800.00 ns, 4.2480 ns/op
+IdleWarmup  3: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleWarmup  4: 8192 op, 35600.00 ns, 4.3457 ns/op
+IdleWarmup  5: 8192 op, 41200.00 ns, 5.0293 ns/op
+IdleWarmup  6: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  7: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  8: 8192 op, 35000.00 ns, 4.2725 ns/op
+
+IdleTarget  1: 8192 op, 34100.00 ns, 4.1626 ns/op
+IdleTarget  2: 8192 op, 32900.00 ns, 4.0161 ns/op
+IdleTarget  3: 8192 op, 32900.00 ns, 4.0161 ns/op
+IdleTarget  4: 8192 op, 32200.00 ns, 3.9307 ns/op
+IdleTarget  5: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  6: 8192 op, 34700.00 ns, 4.2358 ns/op
+IdleTarget  7: 8192 op, 37100.00 ns, 4.5288 ns/op
+IdleTarget  8: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  9: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget 10: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 11: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 12: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget 13: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 14: 8192 op, 34900.00 ns, 4.2603 ns/op
+IdleTarget 15: 8192 op, 32700.00 ns, 3.9917 ns/op
+
+MainWarmup  1: 8192 op, 915800100.00 ns, 111.7920 us/op
+MainWarmup  2: 8192 op, 912350900.00 ns, 111.3710 us/op
+MainWarmup  3: 8192 op, 917506400.00 ns, 112.0003 us/op
+MainWarmup  4: 8192 op, 926550800.00 ns, 113.1043 us/op
+MainWarmup  5: 8192 op, 915985200.00 ns, 111.8146 us/op
+MainWarmup  6: 8192 op, 913151300.00 ns, 111.4687 us/op
+MainWarmup  7: 8192 op, 917028400.00 ns, 111.9419 us/op
+MainWarmup  8: 8192 op, 910715500.00 ns, 111.1713 us/op
+
+// BeforeMainRun
+MainTarget  1: 8192 op, 1097601000.00 ns, 133.9845 us/op
+MainTarget  2: 8192 op, 912123300.00 ns, 111.3432 us/op
+MainTarget  3: 8192 op, 910008600.00 ns, 111.0850 us/op
+MainTarget  4: 8192 op, 905535300.00 ns, 110.5390 us/op
+MainTarget  5: 8192 op, 1526111800.00 ns, 186.2929 us/op
+MainTarget  6: 8192 op, 948017400.00 ns, 115.7248 us/op
+MainTarget  7: 8192 op, 903009400.00 ns, 110.2306 us/op
+MainTarget  8: 8192 op, 909932100.00 ns, 111.0757 us/op
+MainTarget  9: 8192 op, 901459000.00 ns, 110.0414 us/op
+MainTarget 10: 8192 op, 917318400.00 ns, 111.9773 us/op
+MainTarget 11: 8192 op, 910432100.00 ns, 111.1367 us/op
+MainTarget 12: 8192 op, 1054474300.00 ns, 128.7200 us/op
+MainTarget 13: 8192 op, 922067700.00 ns, 112.5571 us/op
+MainTarget 14: 8192 op, 923069500.00 ns, 112.6794 us/op
+MainTarget 15: 8192 op, 911527300.00 ns, 111.2704 us/op
+
+// AfterMainRun
+Result  1: 8192 op, 912089926.67 ns, 111.3391 us/op
+Result  2: 8192 op, 909975226.67 ns, 111.0810 us/op
+Result  3: 8192 op, 905501926.67 ns, 110.5349 us/op
+Result  4: 8192 op, 947984026.67 ns, 115.7207 us/op
+Result  5: 8192 op, 902976026.67 ns, 110.2266 us/op
+Result  6: 8192 op, 909898726.67 ns, 111.0716 us/op
+Result  7: 8192 op, 901425626.67 ns, 110.0373 us/op
+Result  8: 8192 op, 917285026.67 ns, 111.9733 us/op
+Result  9: 8192 op, 910398726.67 ns, 111.1327 us/op
+Result 10: 8192 op, 922034326.67 ns, 112.5530 us/op
+Result 11: 8192 op, 923036126.67 ns, 112.6753 us/op
+Result 12: 8192 op, 911493926.67 ns, 111.2663 us/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 111.6343 us, StdErr = 0.4402 us (0.39%); N = 12, StdDev = 1.5249 us
+Min = 110.0373 us, Q1 = 110.8033 us, Median = 111.1995 us, Q3 = 112.2631 us, Max = 115.7207 us
+IQR = 1.4599 us, LowerFence = 108.6134 us, UpperFence = 114.4530 us
+ConfidenceInterval = [109.6811 us; 113.5875 us] (CI 99.9%), Margin = 1.9532 us (1.75% of Mean)
+Skewness = 1.44, Kurtosis = 4.51, MValue = 2
+
+// **************************
+// Benchmark: ConvertVsParse.Parse: DefaultJob [N=1000000]
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: C:\Users\User\Source\Repos\ConvertVsParse\ConvertVsParse\bin\Release\662e83f9-8a22-464b-85fa-ecb30917332e.exe 
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+Pilot  1: 16 op, 1894000.00 ns, 118.3750 us/op
+Pilot  2: 32 op, 3450500.00 ns, 107.8281 us/op
+Pilot  3: 64 op, 6979200.00 ns, 109.0500 us/op
+Pilot  4: 128 op, 14429300.00 ns, 112.7289 us/op
+Pilot  5: 256 op, 28419700.00 ns, 111.0145 us/op
+Pilot  6: 512 op, 54928000.00 ns, 107.2813 us/op
+Pilot  7: 1024 op, 107045900.00 ns, 104.5370 us/op
+Pilot  8: 2048 op, 222292100.00 ns, 108.5411 us/op
+Pilot  9: 4096 op, 440458200.00 ns, 107.5337 us/op
+Pilot 10: 8192 op, 895848200.00 ns, 109.3565 us/op
+
+IdleWarmup  1: 8192 op, 50600.00 ns, 6.1768 ns/op
+IdleWarmup  2: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleWarmup  3: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleWarmup  4: 8192 op, 37500.00 ns, 4.5776 ns/op
+IdleWarmup  5: 8192 op, 42300.00 ns, 5.1636 ns/op
+IdleWarmup  6: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleWarmup  7: 8192 op, 32700.00 ns, 3.9917 ns/op
+
+IdleTarget  1: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  2: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget  3: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget  4: 8192 op, 32100.00 ns, 3.9185 ns/op
+IdleTarget  5: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget  6: 8192 op, 31800.00 ns, 3.8818 ns/op
+IdleTarget  7: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget  8: 8192 op, 32800.00 ns, 4.0039 ns/op
+IdleTarget  9: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget 10: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 11: 8192 op, 40700.00 ns, 4.9683 ns/op
+IdleTarget 12: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 13: 8192 op, 32600.00 ns, 3.9795 ns/op
+IdleTarget 14: 8192 op, 32700.00 ns, 3.9917 ns/op
+IdleTarget 15: 8192 op, 35000.00 ns, 4.2725 ns/op
+
+MainWarmup  1: 8192 op, 872166100.00 ns, 106.4656 us/op
+MainWarmup  2: 8192 op, 871639300.00 ns, 106.4013 us/op
+MainWarmup  3: 8192 op, 871318800.00 ns, 106.3622 us/op
+MainWarmup  4: 8192 op, 882032300.00 ns, 107.6700 us/op
+MainWarmup  5: 8192 op, 881678200.00 ns, 107.6267 us/op
+MainWarmup  6: 8192 op, 875634500.00 ns, 106.8890 us/op
+MainWarmup  7: 8192 op, 869061800.00 ns, 106.0866 us/op
+MainWarmup  8: 8192 op, 880238300.00 ns, 107.4510 us/op
+MainWarmup  9: 8192 op, 866810700.00 ns, 105.8119 us/op
+
+// BeforeMainRun
+MainTarget  1: 8192 op, 870746800.00 ns, 106.2923 us/op
+MainTarget  2: 8192 op, 879020200.00 ns, 107.3023 us/op
+MainTarget  3: 8192 op, 866474900.00 ns, 105.7709 us/op
+MainTarget  4: 8192 op, 881282900.00 ns, 107.5785 us/op
+MainTarget  5: 8192 op, 926318800.00 ns, 113.0760 us/op
+MainTarget  6: 8192 op, 864434400.00 ns, 105.5218 us/op
+MainTarget  7: 8192 op, 880138700.00 ns, 107.4388 us/op
+MainTarget  8: 8192 op, 867472000.00 ns, 105.8926 us/op
+MainTarget  9: 8192 op, 883927000.00 ns, 107.9012 us/op
+MainTarget 10: 8192 op, 875060300.00 ns, 106.8189 us/op
+MainTarget 11: 8192 op, 889324700.00 ns, 108.5601 us/op
+MainTarget 12: 8192 op, 871713500.00 ns, 106.4103 us/op
+MainTarget 13: 8192 op, 885167600.00 ns, 108.0527 us/op
+MainTarget 14: 8192 op, 868654500.00 ns, 106.0369 us/op
+MainTarget 15: 8192 op, 872303200.00 ns, 106.4823 us/op
+
+// AfterMainRun
+Result  1: 8192 op, 870713500.00 ns, 106.2883 us/op
+Result  2: 8192 op, 878986900.00 ns, 107.2982 us/op
+Result  3: 8192 op, 866441600.00 ns, 105.7668 us/op
+Result  4: 8192 op, 881249600.00 ns, 107.5744 us/op
+Result  5: 8192 op, 864401100.00 ns, 105.5177 us/op
+Result  6: 8192 op, 880105400.00 ns, 107.4347 us/op
+Result  7: 8192 op, 867438700.00 ns, 105.8885 us/op
+Result  8: 8192 op, 883893700.00 ns, 107.8972 us/op
+Result  9: 8192 op, 875027000.00 ns, 106.8148 us/op
+Result 10: 8192 op, 889291400.00 ns, 108.5561 us/op
+Result 11: 8192 op, 871680200.00 ns, 106.4063 us/op
+Result 12: 8192 op, 885134300.00 ns, 108.0486 us/op
+Result 13: 8192 op, 868621200.00 ns, 106.0329 us/op
+Result 14: 8192 op, 872269900.00 ns, 106.4783 us/op
+GC:  0 0 0 0 0
+
+// AfterAll
+
+Mean = 106.8573 us, StdErr = 0.2536 us (0.24%); N = 14, StdDev = 0.9488 us
+Min = 105.5177 us, Q1 = 106.0329 us, Median = 106.6465 us, Q3 = 107.5744 us, Max = 108.5561 us
+IQR = 1.5416 us, LowerFence = 103.7205 us, UpperFence = 109.8867 us
+ConfidenceInterval = [105.7870 us; 107.9277 us] (CI 99.9%), Margin = 1.0703 us (1.00% of Mean)
+Skewness = 0.24, Kurtosis = 1.59, MValue = 2
+
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\ConvertVsParse-report.csv
+  BenchmarkDotNet.Artifacts\results\ConvertVsParse-report-github.md
+  BenchmarkDotNet.Artifacts\results\ConvertVsParse-report.html
+
+// * Detailed results *
+ConvertVsParse.Convert: DefaultJob [N=1000]
+Runtime = .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0; GC = Concurrent Workstation
+Mean = 111.8637 us, StdErr = 0.3261 us (0.29%); N = 15, StdDev = 1.2628 us
+Min = 110.2687 us, Q1 = 110.9409 us, Median = 111.4305 us, Q3 = 113.2400 us, Max = 113.7182 us
+IQR = 2.2991 us, LowerFence = 107.4922 us, UpperFence = 116.6886 us
+ConfidenceInterval = [110.5137 us; 113.2137 us] (CI 99.9%), Margin = 1.3500 us (1.21% of Mean)
+Skewness = 0.21, Kurtosis = 1.25, MValue = 2
+-------------------- Histogram --------------------
+[110.093 us ; 114.166 us) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+ConvertVsParse.Parse: DefaultJob [N=1000]
+Runtime = .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0; GC = Concurrent Workstation
+Mean = 106.7061 us, StdErr = 0.2549 us (0.24%); N = 14, StdDev = 0.9537 us
+Min = 105.0485 us, Q1 = 106.1001 us, Median = 106.5028 us, Q3 = 107.0390 us, Max = 108.4624 us
+IQR = 0.9389 us, LowerFence = 104.6919 us, UpperFence = 108.4473 us
+ConfidenceInterval = [105.6303 us; 107.7819 us] (CI 99.9%), Margin = 1.0758 us (1.01% of Mean)
+Skewness = 0.36, Kurtosis = 2.16, MValue = 2
+-------------------- Histogram --------------------
+[104.702 us ; 108.809 us) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+ConvertVsParse.Convert: DefaultJob [N=1000000]
+Runtime = .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0; GC = Concurrent Workstation
+Mean = 111.6343 us, StdErr = 0.4402 us (0.39%); N = 12, StdDev = 1.5249 us
+Min = 110.0373 us, Q1 = 110.8033 us, Median = 111.1995 us, Q3 = 112.2631 us, Max = 115.7207 us
+IQR = 1.4599 us, LowerFence = 108.6134 us, UpperFence = 114.4530 us
+ConfidenceInterval = [109.6811 us; 113.5875 us] (CI 99.9%), Margin = 1.9532 us (1.75% of Mean)
+Skewness = 1.44, Kurtosis = 4.51, MValue = 2
+-------------------- Histogram --------------------
+[109.675 us ; 113.448 us) | @@@@@@@@@@@
+[113.448 us ; 116.304 us) | @
+---------------------------------------------------
+
+ConvertVsParse.Parse: DefaultJob [N=1000000]
+Runtime = .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0; GC = Concurrent Workstation
+Mean = 106.8573 us, StdErr = 0.2536 us (0.24%); N = 14, StdDev = 0.9488 us
+Min = 105.5177 us, Q1 = 106.0329 us, Median = 106.6465 us, Q3 = 107.5744 us, Max = 108.5561 us
+IQR = 1.5416 us, LowerFence = 103.7205 us, UpperFence = 109.8867 us
+ConfidenceInterval = [105.7870 us; 107.9277 us] (CI 99.9%), Margin = 1.0703 us (1.00% of Mean)
+Skewness = 0.24, Kurtosis = 1.59, MValue = 2
+-------------------- Histogram --------------------
+[105.173 us ; 108.901 us) | @@@@@@@@@@@@@@
+---------------------------------------------------
+
+Total time: 00:01:37 (97.96 sec)
+
+// * Summary *
+
+BenchmarkDotNet=v0.10.14, OS=Windows 10.0.17134
+Intel Xeon CPU E3-1230 V2 3.30GHz, 1 CPU, 8 logical and 4 physical cores
+  [Host]     : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+  DefaultJob : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+
+
+  Method |       N |     Mean |    Error |    StdDev |
+-------- |-------- |---------:|---------:|----------:|
+ Convert |    1000 | 111.9 us | 1.350 us | 1.2628 us |
+   Parse |    1000 | 106.7 us | 1.076 us | 0.9537 us |
+ Convert | 1000000 | 111.6 us | 1.953 us | 1.5249 us |
+   Parse | 1000000 | 106.9 us | 1.070 us | 0.9488 us |
+
+// * Hints *
+Outliers
+  ConvertVsParse.Parse: Default   -> 1 outlier  was  removed
+  ConvertVsParse.Convert: Default -> 3 outliers were removed
+  ConvertVsParse.Parse: Default   -> 1 outlier  was  removed
+
+// * Legends *
+  N      : Value of the 'N' parameter
+  Mean   : Arithmetic mean of all measurements
+  Error  : Half of 99.9% confidence interval
+  StdDev : Standard deviation of all measurements
+  1 us   : 1 Microsecond (0.000001 sec)
+
+// ***** BenchmarkRunner: End *****
+// * Artifacts cleanup *

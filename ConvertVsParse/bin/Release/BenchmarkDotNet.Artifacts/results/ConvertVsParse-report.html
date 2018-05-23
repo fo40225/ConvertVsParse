@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>ConvertVsParse</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.10.14, OS=Windows 10.0.17134
+Intel Xeon CPU E3-1230 V2 3.30GHz, 1 CPU, 8 logical and 4 physical cores
+  [Host]     : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+  DefaultJob : .NET Framework 4.6.2 (CLR 4.0.30319.42000), 32bit LegacyJIT-v4.7.3101.0
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>Method</th><th>N</th><th>Mean</th><th>Error</th><th>StdDev</th>
+</tr>
+</thead><tbody><tr><td>Convert</td><td>1000</td><td>111.9 us</td><td>1.350 us</td><td>1.2628 us</td>
+</tr><tr><td>Parse</td><td>1000</td><td>106.7 us</td><td>1.076 us</td><td>0.9537 us</td>
+</tr><tr><td>Convert</td><td>1000000</td><td>111.6 us</td><td>1.953 us</td><td>1.5249 us</td>
+</tr><tr><td>Parse</td><td>1000000</td><td>106.9 us</td><td>1.070 us</td><td>0.9488 us</td>
+</tr></tbody></table>
+</body>
+</html>
